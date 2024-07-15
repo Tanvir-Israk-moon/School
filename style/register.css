@@ -1,0 +1,138 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Arial, Helvetica, Verdana;
+    /* background-color: black; */
+  }
+  
+
+  
+  /* Add padding to containers */
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #46B7C1;
+    color: white;
+    font-size: 20px;
+    padding: 14px 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    background-color: #218b9a;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+.FirstNameLastName{
+    display: flex;
+}
+.FirstName{
+    flex-basis: 50%;
+    margin-right: 15px;
+}
+.LastName{
+    flex-basis: 50%;
+    margin-left: 15px;
+}
+.dobc{
+    display: flex;
+    
+}
+.DateOfBirth{
+    flex-basis: 50%;
+    margin-right: 15px;
+}
+#DateOfBirth:focus{
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    border: none;
+}
+.class{
+    flex-basis: 50%;
+    margin-left: 15px;  
+}
+#class:focus{
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    border: none;
+}
+.psw2{
+    display: flex;
+}
+.psw{
+    flex-basis: 50%;
+    margin-right: 15px;
+}
+.psw-repeat{
+    flex-basis: 50%;
+    margin-left: 15px;  
+}
+.email{
+    margin-top: 25px;
+}
+#DateOfBirth{
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#class{
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    padding-left: 20px;
+}
